@@ -10,11 +10,11 @@ import Foundation
 public struct GroceryCategoryRequestDTO: Codable {
     public let title: String
     public let colorCode: String
-    public let userId: String
+//    public let userId: String
     
-    public init(title: String, colorCode: String, userId: String) {
+    public init(title: String, colorCode: String/*, userId: String*/) {
         self.title = title
         self.colorCode = colorCode
-        self.userId = userId
+//        self.userId = userId
     }
 }
